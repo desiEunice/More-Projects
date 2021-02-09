@@ -1,3 +1,3 @@
 # Machine-Learning for Finance
 
-Unsupervised Learning with classification with KNeighbors Classifier
+Credit Risk Categorisation with Unsupervised Learning using KNeighbors Classifier.
