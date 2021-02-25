@@ -1,3 +1,1 @@
-# Machine-Learning for Finance
-
-Credit Risk Categorisation with Unsupervised Learning using KNeighbors Classifier.
+## Find my personal projects in this repositories
