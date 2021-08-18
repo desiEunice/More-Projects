@@ -1,1 +1,1 @@
-## Find my personal projects in this repositories
+## Find my personal projects in this repository
