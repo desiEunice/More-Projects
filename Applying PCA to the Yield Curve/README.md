@@ -30,6 +30,8 @@ From the figure above, we can observe that interest rates of similar maturities 
 
 For this analysis I will use various US Treasuries Interest rates data from 0.5 years up to 30 years to maturity. When finding the principal components of the yield curve, usually:
 - The first principal component records *parallel shift* $\approx$ long term interest rate
+- The second principal component records *a change in slope(or tilt)* $\approx$ term premium
+- The third principal component records *curvature or convexity*
 
 
 
