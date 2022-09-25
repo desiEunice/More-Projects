@@ -22,7 +22,7 @@ longer-term bond. This is essentially because of the time value of money — $10
 - To model the yield curve dynamics to identify the fundamental yield curve movements. 
 - To determine the number of principal components required to sufficiently explain the yield curve for ...  data.
 
-To illustrate PCA on interest rates movements, we consider the multivariate time series of daily [U.S. Treasury Interest Rate] (https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics?data=yield) over a 10-year period from 2011 to 2020.
+To illustrate PCA on interest rates movements, we consider the multivariate time series of daily [U.S. Treasury Interest Rate](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics?data=yield) over a 10-year period from 2011 to 2020.
 
 
 
