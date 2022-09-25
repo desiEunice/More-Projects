@@ -9,3 +9,9 @@ It does this by transforming the data from a correlation/covariance matrix onto 
 i.e there is no multicollinearity.
 
 ### Yield Curve
+
+The yield curve shows the interest rates the government must pay to borrow money across different maturites.
+According to the expectations theory of interest rates, the yield curve is made up of two aspects:
+- An average of market expectations concerning future short-term interest rates.
+- The term premium — the extra compensation an investor receives for holding a
+longer-term bond. This is essentially because of the time value of money — $100 is worth more today than it is worth tomorrow, due to its potential earning capacity due to interest. Therefore, for a fixed-income investment to be worth the extra time the investor must part with their cash, the bond issuer must pay the investor some extra amount.
