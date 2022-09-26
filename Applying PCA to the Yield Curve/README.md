@@ -29,13 +29,25 @@ To illustrate PCA on interest rates movements, we consider the multivariate time
 From the figure above, we can observe that interest rates of similar maturities move closely, i.e. they are highly correlated. 
 
 For this analysis I will use various US Treasuries Interest rates data from 0.5 years up to 30 years to maturity. When finding the principal components of the yield curve, usually:
-- The first principal component records *parallel shift* $\approx$ long term interest rate
-- The second principal component records *a change in slope(or tilt)* $\approx$ term premium
+- The first principal component captures *parallel shift* $\approx$ long term trend in interest rate
+- The second principal component captures *a change in slope(or tilt)* $\approx$ term premium
 - The third principal component records *curvature or convexity*
 
 
+#### PCA computation
+
+The classic approach to PCA is to perform the eigendecomposition on the covariance matrix $\sum$ , which is a $d×d$ (where d represents the dimensions of the dataset) matrix where each element represents the covariance between two features. The covariance between two features is calculated as follows:
+$$\signma_{jk} = \frac{1}{n-1} \sum_{i=1}^{n}(x_{ij} - \bar{x_{j}})(x_{ik} - \bar{x_{k}}) $$
 
 
+##### PCA with SVD
+While the eigendecomposition of the covariance or correlation matrix may be more intuitiuve, most PCA implementations perform a Singular Value Decomposition (SVD) to improve the computational efficiency.
+
+Any $(n \times d)$ matrix X can be uniquely expressed as $X = U \times \Sum \times V^{T}$
+
+#### PCA Intuition
+
+Geometrically speaking, principal components represent the directions of the data that explain a maximal amount of variance, i.e., the lines that capture most information of the data. The relationship between variance and information here, is that, the larger the variance carried by a line, the larger the dispersion of the data points along it, and the larger the dispersion along a line, the more information it has.![]()
 
 
 
