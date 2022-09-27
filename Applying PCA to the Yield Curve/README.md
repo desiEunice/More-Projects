@@ -47,7 +47,7 @@ To find the principal components of X:
 Where $U$ represents an orthonormal matrix of left singular vectors, $\sum $, the matrix of singular values $\sigma$ in a descending order and $V$, an orthonormal matrix of right singular vectors.
 
 2. Once the eigenvalues and eigenvectors are found using the singular value decomposition, the principal components are computed using equation 
-$$ Y = XV $$
+$Y = XV$
 
 
 #### PCA Intuition
