@@ -39,7 +39,9 @@ The figure below illustrates the first three eigenvectors resulting from singula
 
 ![Principal Components](pcs.png)
 
-![Var](var.png)
+![Var](var.png) 
+
+
 
 
 
