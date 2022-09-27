@@ -1,4 +1,4 @@
-##  Appling Principal Components Analysis on the Interest Rate Term Structure.
+##  Applying Principal Components Analysis on the Interest Rate Term Structure.
 
 Essentially, term structure of interest rates is the relationship between interest rates or bond yields and different terms or maturities. When graphed, the term structure of interest rates is known as a yield curve, and it plays a crucial role in identifying the current state of an economy. (Investopedia)
 
