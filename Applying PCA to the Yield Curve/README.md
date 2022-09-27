@@ -26,7 +26,7 @@ To illustrate PCA on interest rates movements, we consider the multivariate time
 
 ![plot](yield_curve.png)
 
-![Covariance Matrix](correlations.png)
+![Covariance Matrix](correlation.png)
 
 From the figure above, we can observe that interest rates of similar maturities move closely, i.e. they are highly correlated. 
 
