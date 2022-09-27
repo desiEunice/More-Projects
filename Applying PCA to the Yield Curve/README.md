@@ -36,14 +36,19 @@ For this analysis I will use various US Treasuries Interest rates data from 0.5 
 
 #### PCA computation
 
-The classic approach to PCA is to perform the eigendecomposition on the covariance matrix $\sum$ , which is a $d×d$ (where d represents the dimensions of the dataset) matrix where each element represents the covariance between two features. The covariance between two features is calculated as follows:
-$$\signma_{jk} = \frac{1}{n-1} \sum_{i=1}^{n}(x_{ij} - \bar{x_{j}})(x_{ik} - \bar{x_{k}}) $$
+The classic approach to PCA is to perform the eigendecomposition on the covariance matrix $\sum$ , which is a $d \times d$ (where d represents the dimensions of the dataset) matrix where each element represents the covariance between two features. The covariance between two features is calculated as follows:
+$$\sigma_{jk} = \frac{1}{n-1} \sum_{i=1}^{n}(x_{ij} - \bar{x_{j}})(x_{ik} - \bar{x_{k}}) $$
 
 
 ##### PCA with SVD
 While the eigendecomposition of the covariance or correlation matrix may be more intuitiuve, most PCA implementations perform a Singular Value Decomposition (SVD) to improve the computational efficiency.
+To find the principal components of X:
+1. Calculate the SVD of the dataset(matrix X) as $X = U \times \sum \times V^{T}$
+Where $U$ represents an orthonormal matrix of left singular vectors, $\sum $, the matrix of singular values $\sigma$ in a descending order and $V$, an orthonormal matrix of right singular vectors.
 
-Any $(n \times d)$ matrix X can be uniquely expressed as $X = U \times \Sum \times V^{T}$
+2. Once the eigenvalues and eigenvectors are found using the singular value decomposition, the principal components are computed using equation 
+$$ Y = XV $$
+
 
 #### PCA Intuition
 
