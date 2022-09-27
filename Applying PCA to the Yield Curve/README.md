@@ -40,14 +40,18 @@ The classic approach to PCA is to perform the eigendecomposition on the covarian
 $$\sigma_{jk} = \frac{1}{n-1} \sum_{i=1}^{n}(x_{ij} - \bar{x_{j}})(x_{ik} - \bar{x_{k}}) $$
 
 
+
 ##### PCA with SVD
 While the eigendecomposition of the covariance or correlation matrix may be more intuitiuve, most PCA implementations perform a Singular Value Decomposition (SVD) to improve the computational efficiency.
 To find the principal components of X:
 1. Calculate the SVD of the dataset(matrix X) as $X = U \times \sum \times V^{T}$
-Where $U$ represents an orthonormal matrix of left singular vectors, $\sum $, the matrix of singular values $\sigma$ in a descending order and $V$, an orthonormal matrix of right singular vectors.
+Where $\sum $, the matrix of singular values $\sigma$ in a descending order and $V$. 
 
 2. Once the eigenvalues and eigenvectors are found using the singular value decomposition, the principal components are computed using equation 
 $Y = XV$
+- $X$ - matrix of the our interest rates time series.
+- $V$ - orthogonal matrix of eigen vectors
+- $Y$ - collects the resulting variables of the transformation performed by matrix $V$ on the original set of variables in $X$.
 
 
 #### PCA Intuition
