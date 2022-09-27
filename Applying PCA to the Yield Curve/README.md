@@ -70,4 +70,7 @@ $Y = XV$
 Geometrically speaking, principal components represent the directions of the data that explain a maximal amount of variance, i.e., the lines that capture most information of the data. The relationship between variance and information here, is that, the larger the variance carried by a line, the larger the dispersion of the data points along it, and the larger the dispersion along a line, the more information it has.![]()
 
 
+![](pc1.png)
+![](pc2.png)
+![](pc3.png)
 
