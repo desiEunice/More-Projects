@@ -30,10 +30,16 @@ To illustrate PCA on interest rates movements, we consider the multivariate time
 
 From the figure above, we can observe that interest rates of similar maturities move closely, i.e. they are highly correlated. 
 
-For this analysis I will use various US Treasuries Interest rates data from 0.5 years up to 30 years to maturity. When finding the principal components of the yield curve, usually:
+For this analysis I will use various US Treasuries Interest rates data from 0.5 years up to 30 years to maturity. When finding the principal components of the yield curve, usually[cite](https://www.amazon.ca/Options-Futures-Other-Derivatives-9th/dp/0133456315):
 - The first principal component captures *parallel shift* 
 - The second principal component captures *a change in slope(or tilt)* $\approx$ term premium
 - The third principal component records *curvature or convexity*
+
+The figure below illustrates the first three eigenvectors resulting from singular value decomposition of interest rate changes. In blue, the first eigenvector(or principal component) is approximately a parallel line as it corresponds to a roughly parallel shift in the yield curve. A parallel shift in the yield curve occurs when interest rates across all maturities change by the same number of basis points. In red, the second eigenvector (or principal component) explains movements (or change of slope) of the yield curve. Rates with maturities 1-month and 1-year move in one direction and rates with maturities 20-year and 30-year move in a different direction. The third principal component has a concave shape instead of convex. This is refered to as negative convexity [cite](https://www.investopedia.com/terms/n/negative_convexity.asp#:~:text=What%20Is%20Negative%20Convexity%3F,with%20respect%20to%20its%20yield.).
+
+![Principal Components](pcs.png)
+
+
 
 
 #### PCA computation
