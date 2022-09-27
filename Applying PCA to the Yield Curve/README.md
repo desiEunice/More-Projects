@@ -71,6 +71,9 @@ Geometrically speaking, principal components represent the directions of the dat
 
 
 ![](pc1.png)
+
+The second principal component represents the slope. This have a correlation with the slope of the actual yield curve. According to columnist Buttonwood of The Economist newspaper, the slope of the yield curve can be measured by the difference, or "spread", between the yields on two-year and ten-year U.S [cite](https://en.wikipedia.org/wiki/Yield_curve). Treasury Notes. A wider spread indicates a steeper slope.
+
 ![](pc2.png)
-![](pc3.png)
+
 
