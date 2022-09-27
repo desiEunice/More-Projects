@@ -31,7 +31,7 @@ To illustrate PCA on interest rates movements, we consider the multivariate time
 From the figure above, we can observe that interest rates of similar maturities move closely, i.e. they are highly correlated. 
 
 For this analysis I will use various US Treasuries Interest rates data from 0.5 years up to 30 years to maturity. When finding the principal components of the yield curve, usually:
-- The first principal component captures *parallel shift* $\approx$ long term trend in interest rate
+- The first principal component captures *parallel shift* 
 - The second principal component captures *a change in slope(or tilt)* $\approx$ term premium
 - The third principal component records *curvature or convexity*
 
