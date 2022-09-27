@@ -79,10 +79,10 @@ The second principal component represents the slope. This have a correlation wit
 The plot below compares the second principal component to the slope of the actual yield curve.
 ![](pc2_slope.png)
 
-    | PC1      | 10Y-2Y Slope |
-    | ----------- | ----------- |
-PC1 | 1      | 0.89225468       |
-10Y-2Y Slope| 0.89225468   | 1        |
+              | PC1         | 10Y-2Y Slope |
+--------------| ----------- | -----------  |
+PC1           | 1           | 0.89225468   |
+10Y-2Y Slope  | 0.89225468   | 1           |
 
 The high correlation of 0.89 shows us that the second principal component does, in fact, represent the slope!
 
