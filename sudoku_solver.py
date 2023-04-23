@@ -29,6 +29,7 @@ def get_puzzle():
 '''
 
 ## Sudoku puzzle must be a numpy array
+
 #puzzle = get_puzzle()
 puzzle = np.array(puzzle)
 
@@ -72,7 +73,7 @@ def is_valid(board, guess, row, col):
     if guess in row_value:
         return False
 
-    # Check col
+    # Check column
     col_value = board.transpose()[col] # for the col associated with the row index
     if guess in col_value:
         return False
