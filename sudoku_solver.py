@@ -1,7 +1,6 @@
 """
-
+Specify sudoku puzzle in script.
 This python script solves a sudoku puzzle. 
-
 """
 
 
